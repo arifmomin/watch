@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0%;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 210px;
+    height: 70px;
+    background: #555555;
+    color: yellow;
+    border-radius: 7px;
+    box-shadow: 3px 3px 2px #000000;
+}
+
+.main_div{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #eeeeee;
+}
+.hours, .minutes, .secound,{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Helvetica Neue";
+    color: #333333;
+    border: 1px solid yellow;
+    box-shadow: 3px 3px 2px #000000;
+    border-radius: 5px;
+    padding: 1px 5px;
+}
+.dots{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Helvetica Neue";
+}
